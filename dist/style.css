@@ -1,0 +1,43 @@
+
+.signup-container {
+  border: 2px solid blue;
+}
+
+.login-container {
+  border: 2px solid red;
+}
+
+.view-button-container {
+
+}
+
+.view-button {
+
+}
+
+.map-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 700px;
+}
+
+.item {
+  transition-duration: 0.3s;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 150px;
+  height: 100px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.item:hover {
+  border-width: 4px;
+  padding: 9px;
+}
+
+
+/* .app-wrapper {
+  height: 1000px;
+} */
