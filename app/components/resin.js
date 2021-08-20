@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+
 import Map from './map';
+import domains from './artifact_map';
 
 let artifacts = ['Domain of Guyun', 'Midsummer Courtyard', 'Valley of Remembrance', 'Hidden Palace of Zhou Formula', 'Peak of Vindagnyr', 'Ridge Watch', 'Momiji-Dyed Court', 'Clear Pool and Mountain Cavern'];
 
@@ -17,7 +19,7 @@ class Resin extends Component {
   render () {
     return (
       <div className="map-container">
-        <Map view={artifacts}/>
+        <Map domains={domains}/>
       </div>
     )
   }
